@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    color: var(--col-fg-1);
+    overflow-x: hidden;
+    font-family: 'Stardos Stencil', system-ui;
+}
+
+h1 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 12vh;
+    font-weight: 700;
+}
+
+h2 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 6vh;
+    font-weight: 700;
+}
+
+h3 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 4.4vh;
+    font-weight: 100;
+}
+
+div:has(img) {
+    overflow: hidden;
+}
+
+.commcontainer#aippm {
+    background-image: url("/assets/comm_bgs/aippm.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.commcontainer#cc {
+    background-image: url("/assets/comm_bgs/cc.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.commcontainer#disec {
+    background-image: url("/assets/comm_bgs/disec.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.commcontainer#fga {
+    background-image: url("/assets/comm_bgs/fga.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.commcontainer#fifa {
+    background-image: url("/assets/comm_bgs/fifa.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.commcontainer#icj {
+    background-image: url("/assets/comm_bgs/icj.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.commcontainer#jcc {
+    background-image: url("/assets/comm_bgs/jcc.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.commcontainer#sanguo {
+    background-image: url("/assets/comm_bgs/sanguo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.commcontainer#unhrc {
+    background-image: url("/assets/comm_bgs/unhrc.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.commcontainer#unsc {
+    background-image: url("/assets/comm_bgs/unsc.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#frontpage {
+    grid-template-rows: 25vh 60vh;
+}
+
+#frontpage>* {
+    width: 66%;
+    justify-self: center;
+    overflow: hidden;
+    height: fit-content;
+}
+
+#frontpage>*>img {
+    height: 100%;
+}
+
+@media screen and (max-aspect-ratio: 1) {
+    h1 {
+        text-decoration: none;
+        text-align: center;
+        font-size: 6vh;
+        font-weight: 700;
+    }
+    
+    h2 {
+        text-decoration: none;
+        text-align: center;
+        font-size: 4vh;
+        font-weight: 700;
+    }
+    
+    h3 {
+        text-decoration: none;
+        text-align: center;
+        font-size: 3vh;
+        font-weight: 100;
+    }
+
+    #frontpage {
+        grid-template-rows: 20vh 60vh;
+    }
+    
+    #frontpage>* {
+        width: 90%;
+        justify-self: center;
+        overflow: hidden;
+        height: fit-content;
+    }
+}
