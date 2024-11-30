@@ -209,7 +209,7 @@ th.rightcol > a > h4 {
 #cont_comm_logos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     padding: 5vh 15vw;
     width: 70%;
 }
